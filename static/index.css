@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+}
+
+
+#box {
+    height: 230px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #cf0072 3px;
+    width: 500px;
+    background-color: lightgrey;
+}
+
+#tabell {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#tabellinfo td, th {
+    padding: 12px;
+}
+
+#tabellinfo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#info td, th {
+    border: 2px solid #0098c3;
+    padding: 20px;
+    width: 60px;
+
+}
+
+#info {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+#info table {
+    border: solid #ffa02f 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#box:hover {
+    width: 600px;
+    transition: width 2s, height 1s, transform 2s;
+    transition-timing-function: linear;
+}
+
+#bilditg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 390px;
+    margin-top: 10px;
+}
+
+
+
+
+
+#box2 {
+    height: 250px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid darkgrey 3px;
+    width: 500px;
+    background-color: whitesmoke;
+}
+
+#tabell2 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#tabellinfo2 td, th {
+    padding: 15px;
+}
+
+#tabellinfo2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 390px;
+    font-style: italic;
+    font-size: 17px;
+}
+
+#info2 td, th {
+    border: 2px solid darkblue;
+    padding: 18px;
+    width: 60px;
+
+}
+
+#info2 {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#info2 table {
+    border: solid black 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+@media (orientation: landscape){
+    #box {
+
+        display: true;
+    }
+    #box2 {
+        display: none;
+    }
+
+}
+
+@media (orientation: portrait){
+    #box {
+
+        display: none;
+    }
+    #box2 {
+        display: true;
+    }
+
+}
+body {
+    -webkit-animation: myfirst 3s linear 1s infinite alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 1s linear 1s infinite alternate; /* Standard syntax */
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {background: black;}
+    to {background: grey;}
+}

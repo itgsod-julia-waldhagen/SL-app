@@ -1,0 +1,13 @@
+#box {
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 200px;
+    background-color: #cf0072;
+    border: solid whitesmoke 3px;
+
+}
+
+#text {
+    margin-left: 15px;
+}

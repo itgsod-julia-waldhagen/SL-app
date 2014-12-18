@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>En tidtabell nära dig!</title>
+    <meta http-equiv="refresh" content="60">
+    <link rel="stylesheet" href="/static/index.css" type="text/css">
+</head>
+<body>
+
+<div id="box">
+    <div id="tabellinfo">
+        <table>
+            <tr>
+                <td>Destination</td>
+                <td> </td>
+                <td>Inkommer</td>
+                <td> </td>
+                <td>Förseningar</td>
+            </tr>
+        </table>
+        </div>
+        <div id="info">
+            <table>
+            <tr>
+                <td>{{ svar[0]['Destination'] }}</td>
+                <td>{{ svar[0]['TimeTabledDateTime'] }}</td>
+                <td>{{ svar[0]['Late'] }} min</td>
+            </tr>
+            <tr>
+                <td>{{ svar[1]['Destination'] }}</td>
+                <td>{{ svar[1]['TimeTabledDateTime'] }}</td>
+                <td>{{ svar[1]['Late'] }} min</td>
+            </tr>
+            </table>
+        </div>
+
+</div>
+<div id="box2">
+    <div id="tabellinfo2">
+        <table>
+            <tr>
+                <td>Destination</td>
+                <td> </td>
+                <td>Inkommer</td>
+                <td> </td>
+                <td>Förseningar</td>
+            </tr>
+        </table>
+    </div>
+    <div id="info2">
+        <table>
+            <tr>
+                <td>{{ svar[0]['Destination'] }}</td>
+                <td>{{ svar[0]['TimeTabledDateTime'] }}</td>
+                <td>{{ svar[0]['Late'] }} min</td>
+            </tr>
+            <tr>
+                <td>{{ svar[1]['Destination'] }}</td>
+                <td>{{ svar[1]['TimeTabledDateTime'] }}</td>
+                <td>{{ svar[1]['Late'] }} min</td>
+            </tr>
+        </table>
+        </div>
+</div>
+<div id="bilditg">
+    <img src="../static/logo_header.png">
+</div>
+
+
+</body>
+</html>
