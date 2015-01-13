@@ -13,10 +13,8 @@ def page_not_found(e):
 def welcome():
     svar=busstops()
 
-    print svar
+
     return render_template('index.html',title="A timetable close to you!",svar=svar )
-
-
 
 
 
