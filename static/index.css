@@ -148,15 +148,8 @@ body {
     #box2 {
         display: true;
     }
+    #clock {
+        display: none;
+    }
 
-}
-body {
-    -webkit-animation: myfirst 3s linear 1s infinite alternate; /* Chrome, Safari, Opera */
-    animation: myfirst 1s linear 1s infinite alternate; /* Standard syntax */
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes myfirst {
-    from {background: black;}
-    to {background: grey;}
 }
